@@ -1,86 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>My First GitHub Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadaf Sadeqeen | Portfolio</title>
 
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-        }
+    <link rel="stylesheet" href="style.css">
 
-        body{
-            font-family:Arial,sans-serif;
-            background:#f4f4f4;
-            text-align:center;
-            padding:50px;
-        }
-
-        .container{
-            max-width:700px;
-            margin:auto;
-            background:white;
-            padding:30px;
-            border-radius:15px;
-            box-shadow:0 4px 10px rgba(0,0,0,0.1);
-        }
-
-        h1{
-            color:#2563eb;
-            margin-bottom:15px;
-        }
-
-        h2{
-            color:#333;
-            margin-top:20px;
-        }
-
-        p{
-            color:#555;
-            line-height:1.6;
-            margin-top:10px;
-        }
-
-        button{
-            margin-top:20px;
-            padding:12px 25px;
-            border:none;
-            border-radius:8px;
-            background:#2563eb;
-            color:white;
-            cursor:pointer;
-            font-size:16px;
-        }
-
-        button:hover{
-            background:#1d4ed8;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
-    <div class="card">
+    <div class="bg-animation"></div>
 
-        <div class="profile">
-            <img src="https://via.placeholder.com/150" alt="Profile">
+    <header>
+        <nav>
+            <div class="logo">SADAF.</div>
+
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+
+        <div class="hero-left">
+
+            <h3>Hello, I'm</h3>
+
+            <h1>Sadaf Sadeqeen Chowdhury</h1>
+
+            <h2><span id="typing"></span></h2>
+
+            <p>
+                CSE Student at Premier University, Competitive Programmer,
+                Media Officer and Batch Coordinator passionate about
+                Programming, Problem Solving, Technology and Innovation.
+            </p>
+
+            <div class="buttons">
+                <a href="https://github.com/Sadaf1212-code" class="btn">GitHub</a>
+                <a href="#" class="btn btn-outline">LinkedIn</a>
+            </div>
+
         </div>
 
-        <h1>Sadaf</h1>
+        <div class="hero-right">
 
-        <h3>CSE Student</h3>
+            <div class="glass-card">
 
-        <p>
-            Passionate about Programming, Web Development,
-            Git & GitHub and Continuous Learning.
-        </p>
+                <img src="profile.jpg" alt="Sadaf">
 
-        <div class="btn-group">
-            <button>GitHub</button>
-            <button>LinkedIn</button>
+            </div>
+
         </div>
 
-    </div>
+    </section>
+
+    <section id="about">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="section-card">
+
+            <p>
+                Passionate Computer Science student currently studying at
+                Premier University, Chattogram. I enjoy solving competitive
+                programming problems, building projects, learning modern
+                technologies and contributing to university communities.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section id="skills">
+
+        <h2 class="section-title">Skills</h2>
+
+        <div class="card-grid">
+
+            <div class="skill-card">C++</div>
+            <div class="skill-card">DSA</div>
+            <div class="skill-card">Java</div>
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">Git & GitHub</div>
+            <div class="skill-card">Codeforces</div>
+            <div class="skill-card">Problem Solving</div>
+
+        </div>
+
+    </section>
+
+    <section id="experience">
+
+        <h2 class="section-title">Experience</h2>
+
+        <div class="section-card">
+
+            <h3>Batch Coordinator</h3>
+
+            <p>
+                Premier University Computer Club
+            </p>
+
+            <br>
+
+            <h3>Media Officer</h3>
+
+            <p>
+                Hult Prize - Premier University Chapter
+            </p>
+
+        </div>
+
+    </section>
+
+    <section id="achievements">
+
+        <h2 class="section-title">Achievements</h2>
+
+        <div class="card-grid">
+
+            <div class="skill-card">
+                ICPC Participant
+            </div>
+
+            <div class="skill-card">
+                3rd Place - Bir Konna Pritilota Art Competition
+            </div>
+
+            <div class="skill-card">
+                6th Place - Amar Ekushey Art Competition
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+
+        <h2 class="section-title">Contact</h2>
+
+        <div class="section-card">
+
+            <p>Email: sadafsadeqeen@gmail.com</p>
+
+            <p>Location: Chattogram, Bangladesh</p>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Sadaf Sadeqeen Chowdhury. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
