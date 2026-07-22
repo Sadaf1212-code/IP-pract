@@ -1,24 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>My First GitHub Page</title>
-    <link rel="stylesheet" href="style.css">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial,sans-serif;
+            background:#f4f4f4;
+            text-align:center;
+            padding:50px;
+        }
+
+        .container{
+            max-width:700px;
+            margin:auto;
+            background:white;
+            padding:30px;
+            border-radius:15px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1{
+            color:#2563eb;
+            margin-bottom:15px;
+        }
+
+        h2{
+            color:#333;
+            margin-top:20px;
+        }
+
+        p{
+            color:#555;
+            line-height:1.6;
+            margin-top:10px;
+        }
+
+        button{
+            margin-top:20px;
+            padding:12px 25px;
+            border:none;
+            border-radius:8px;
+            background:#2563eb;
+            color:white;
+            cursor:pointer;
+            font-size:16px;
+        }
+
+        button:hover{
+            background:#1d4ed8;
+        }
+    </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1>Hello GitHub! 🚀</h1>
+    <div class="card">
 
-        <p>This is my first website hosted with GitHub.</p>
+        <div class="profile">
+            <img src="https://via.placeholder.com/150" alt="Profile">
+        </div>
 
-        <h2>About Me</h2>
+        <h1>Sadaf</h1>
+
+        <h3>CSE Student</h3>
 
         <p>
-            My name is Sadaf. I am a CSE student,
-            learning Programming, Git & GitHub.
+            Passionate about Programming, Web Development,
+            Git & GitHub and Continuous Learning.
         </p>
 
-        <button>Visit My Profile</button>
+        <div class="btn-group">
+            <button>GitHub</button>
+            <button>LinkedIn</button>
+        </div>
+
     </div>
 
 </body>
